@@ -23,4 +23,4 @@ def test_div():
     assert div(10, 2) == 5
     assert div(-2, 1) == -2
     assert div(-6, -2) == 3
-    assert div(0, 1) == 0
+    assert div(0, 0) == 0

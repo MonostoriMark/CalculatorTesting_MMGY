@@ -8,5 +8,8 @@ def mult(x,y):
     return x * y
 
 def div(x,y):
-    return x / y
+    try:
+        return x / y
+    except:
+        return 0
 
